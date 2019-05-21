@@ -21,8 +21,10 @@ print.title('Initializing DCE Selenium Testing');
 
 console.log('\nThis\'ll just take a moment.\n');
 
+// Install dependencies
 print.subtitle('Installing dependencies...');
 exec('npm install --save-dev dce-selenium mocha');
+console.log('dependencies installed\n');
 
 // Add selenium script
 print.subtitle('Updating test script in package.json')
@@ -47,7 +49,7 @@ copyTo(
 console.log('/test/.eslintrc.json file create\n');
 
 // Update .gitignore
-stepTitle('Updating .gitignore');
+print.subtitle('Updating .gitignore');
 const gitignoreFilename = path.join(currDir, 'test', '.gitignore');
 let gitignore = (
   fs.existsSync(gitignoreFilename)
