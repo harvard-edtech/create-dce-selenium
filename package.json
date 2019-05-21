@@ -1,0 +1,29 @@
+{
+  "name": "create-dce-selenium",
+  "version": "1.0.0",
+  "description": "Sets up ui testing using dce-selenium",
+  "main": "index.js",
+  "bin": {
+    "create-dce-selenium": "./init.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harvard-edtech/create-dce-selenium.git"
+  },
+  "keywords": [
+    "Harvard",
+    "DCE",
+    "Selenium",
+    "UI",
+    "Testing"
+  ],
+  "author": "Gabriel Abrams <gabeabrams@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harvard-edtech/create-dce-selenium/issues"
+  },
+  "homepage": "https://github.com/harvard-edtech/create-dce-selenium#readme"
+}
