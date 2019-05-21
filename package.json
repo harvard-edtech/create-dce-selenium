@@ -1,6 +1,6 @@
 {
   "name": "create-dce-selenium",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sets up ui testing using dce-selenium",
   "main": "index.js",
   "bin": {
