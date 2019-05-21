@@ -59,7 +59,7 @@ let gitignore = (
 gitignore += (gitignore.length > 0 ? '\n' : '');
 gitignore += '# Ignore snapshots\nsnapshots/';
 fs.writeFileSync(gitignoreFilename, gitignore, 'utf-8');
-console.log('.gitignore updated');
+console.log('test/.gitignore updated');
 
 console.log('\n');
 
